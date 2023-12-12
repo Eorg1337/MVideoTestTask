@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVideo task</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<body>
+    <div class="main__container">
+        <div class = "fp__wrapper" id = "fp__wrapper">
+            <div class="file__error">Неправильный формат файла, разрешены только файлы .CSV</div>
+            <div class="fp__container">
+                <p class="pick__file">Выберите файл в формате CSV</p>
+                <input type="file" class = "myInputFp" id="myFile" style="display: none;">
+                <button class="myButtonFp" id="fp__my-button">Выберите файл</button>
+            </div>
+        </div>
+        <div class="sp__container">
+            <button class="myButtonSp" id="sp__my-button">Загрузить новый файл</button>
+            <table class="my-table">
+                <colgroup>  
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="20%">
+                </colgroup>
+                <tr>
+                    <th>Имя</th>
+                    <th>Номер телефона</th>
+                    <th>email</th>
+                    <th>Дата рождения</th>
+                    <th>Адрес</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    font-family: "Noto Sans", Arial, sans-serif;
+}
+
+button{
+    appearance: none;
+    background-color: #6346B4;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+} 
+
+button:hover{
+    background-color: #A88EF0;
+}
+
+button:active{
+    background-color: #311F63;
+}
+
+th,td{
+    padding-left: 25px ;
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    padding: 16px 0 16px 25px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
+tr td{
+    border-bottom: 1px solid #C0C0C0;
+}
+
+tr:hover {
+    background-color: #6346B440;
+}
+
+.main__container{
+    background-color: #CBCBCB;
+    height: 100%; 
+}
+
+.fp__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.fp__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 367px;
+    width: 820px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 9.899999618530273px 0px #00000040;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fp__my-button{
+    width: 274px;
+    height: 48px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.sp__container{
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 18px;
+    background-color: #CBCBCB;
+}
+
+#sp__my-button{
+    width: 164px;
+    height: 36px;
+    font-size: 12px;
+    margin-right: 14px;
+}
+
+.my-table{
+    background-color: white;
+    margin-top: 30px;
+    width: 95%;
+    font-family: "Inter", Arial, sans-serif;
+    border-top-left-radius: 10px;
+    }
+
+.my-table th{
+    border-right: 1px solid #C0C0C0;
+    border-bottom: 2px solid #898989;
+}
+
+.file__error{
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #FF6565;
+    transition: opacity 0.5s ease-in-out;
+    width: 720px;
+    height: 89px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 4px 9.899999618530273px 0px #00000040;
+}
+
+.pick__file{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
